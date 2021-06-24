@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #989db8;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-container {
+  background-color: #c5c9df;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+}
+.container-1{
+    max-width: 30%;
+    width: 30%;
+}
+.container-2{
+    max-width:60%;
+    width:60%;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+    align-items: center;  
+    list-style: none; 
+}
+a{
+    text-decoration:none;
+    color: #222222;
+}
+.container-3{
+    display: flex;
+    justify-content: flex-end;
+    gap:10px;
+    max-width:30%;
+    width:30%;
+}
+
+
+/* todo main sction */
+.Heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+.Heading h1{
+    font-size: 48px;
+    font-weight: normal;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+.mainChild-1{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    flex-direction:column;
+    padding: 20px 0 0 20px;
+    /* background-color: red; */
+}
+.Search-For-Institute{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+.Search-For-Institute h3{
+    font-weight: normal;
+}
+.line{
+    position: relative;
+    top: 57px;
+    margin-right: 5px;
+}
+
+/* Quick Search section */
+.Quick-Search{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+input[placeholder="Quick Search"]{
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+.Quick-Search-Btn{
+    width: 15%;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.Quick-Search-Btn:hover{
+    color: #ffffff;
+    background-color: dodgerblue;
+}
+.Quick-Search-Cards{
+    margin-top: 20px;
+    display: flex;
+    gap:10px;
+}
+.Card{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5c9df;
+    padding: 20px;
+    height: 250px;
+    border-radius: 20px;
+}
+.Card button{
+    position: relative;
+    top: 80px;
+    right: 30px;
+    height:30px;
+    width:90px;
+    border: none;
+    border-radius:50px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.Card button:hover{
+    color: #ffffff;
+    background-color: dodgerblue;
+    transform: scale(0.9);
+}
+
+/* .... */
+
+/* .... */
+
+
+
+/* todo Seccond vertical section  */
+.mainChild-2{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    padding-left: 50px;
+    /* background-color: red; */
+
+}
+.Study-Mock-Practice{
+    display: flex;
+    gap: 10px;
+    margin-top: 75px;
+}
+.Study-Mock-Practice img{
+    position: relative;
+    top: 30px;
+}
+.Study-Mock-Practice h3{
+    font-weight: normal;
+    font-size: 2rem;
+}
+.subject-exam{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+input[placeholder="SEARCH SUBJECT, TOPIC OR EXAMINATION"]{
+    background-color: #ffffff00;
+    width: 350px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-bottom: 5px solid #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+input[placeholder="SEARCH SUBJECT, TOPIC OR EXAMINATION"]::placeholder{
+    color: #ffffff;
+    opacity: 0.6;
+}
+.subject-exam button {
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.subject-exam button:hover{
+    color: #ffffff;
+    background-color: dodgerblue;
+}
